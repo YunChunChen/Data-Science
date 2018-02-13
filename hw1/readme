@@ -1,0 +1,21 @@
+Operating Procedure:
+1. Get data from the given URL.
+2. Parse the data and use a 2D list to store the information.
+3. Parse sys.argv
+4. Use for loop to loop through sys.argv
+5. Plot the chart according to the given sys.argv
+
+
+Function Description:
+1. get_data: get the data from the given URL, parse the data and store the data 
+             into 3 different lists: edu_list, income_list, working_list
+
+2. line_chart: plot line chart
+
+3. bar_chart: plot bar chart
+
+4. pie_chart: plot pie chart
+
+
+Usage: 
+python3 hw1.py -(class of data)(type of chart)
